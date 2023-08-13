@@ -1,0 +1,6 @@
+services:
+  check_aws_ses:
+    image: github.com/safinfin/check_aws_ses:latest
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
